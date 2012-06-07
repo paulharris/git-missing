@@ -20,12 +20,12 @@ default:
 install: install-exe install-doc
 
 install-exe: git-missing.sh
-	$(INSTALL_DIR) $(DESTDIR)/$(gitdir)
-	$(INSTALL_EXE) $< $(DESTDIR)/$(gitdir)/git-missing
+	$(INSTALL_DIR) $(DESTDIR)$(gitdir)
+	$(INSTALL_EXE) $< $(DESTDIR)$(gitdir)/git-missing
 
 install-doc: git-missing.1
-	$(INSTALL_DIR) $(DESTDIR)/$(mandir)/man1/
-	$(INSTALL_DATA) $< $(DESTDIR)/$(mandir)/man1/
+	$(INSTALL_DIR) $(DESTDIR)$(mandir)/man1/
+	$(INSTALL_DATA) $< $(DESTDIR)$(mandir)/man1/
 
 doc: git-missing.1
 
