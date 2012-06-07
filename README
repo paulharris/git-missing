@@ -1,0 +1,6 @@
+Please read git-missing.txt for documentation.
+
+This little tool implements the equivalent of bzr missing
+call it like so:
+
+git missing other_branch
