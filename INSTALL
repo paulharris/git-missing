@@ -1,0 +1,22 @@
+
+HOW TO INSTALL git-missing
+==========================
+
+You simply need to copy the file 'git-missing.sh' to where
+the rest of the git scripts are stored. 
+
+From the Git bash window just run:
+
+install.sh 
+
+Or if you have the full Cygwin installed, you can use make:
+
+make install
+
+That will make a 'git missing' (note: space instead of dash) command
+available.  See the file git-missing.txt for more.
+
+You can also install the man page by doing:
+
+	make doc
+	cp git-missing.1 /usr/share/man/man1/

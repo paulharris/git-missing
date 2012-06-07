@@ -1,0 +1,39 @@
+git-missing(1)
+==============
+
+NAME
+----
+git-missing - List the missing commits between two branches,
+              like bzr missing
+
+
+SYNOPSIS
+--------
+[verse]
+'git missing' <commit>
+
+
+DESCRIPTION
+-----------
+Uses two calls to git log to do the job.
+
+COMMANDS
+--------
+(None)
+
+OPTIONS
+-------
+-d::
+   Shows some debug info
+
+All other options are passed through to git-log
+
+
+AUTHOR
+------
+Written by Paul Harris <paulharris@computer.org>
+
+
+GIT
+---
+Add-on to the linkgit:git[1] suite
